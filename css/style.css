@@ -326,7 +326,7 @@ button {
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 
 .head_top {
-     background: url(/images/banner-new.jpg);
+     background: url(../images/banner2.jpg);
      background-size: cover;
      background-repeat: no-repeat;
      height: 100vh;
