@@ -430,6 +430,15 @@ button {
      margin: 4rem 0;
      color: #3e3e3e;
 }
+.download-btn{
+     font-weight: 700;
+     letter-spacing: 1px;
+     text-decoration: underline !important;
+     color: #0389ff;
+}
+.download-btn:hover{
+     color: #02fee5;
+}
 
 /*--------------------------------------------------------------------- End Syllabus  ---------------------------------------------------------------------*/
 
