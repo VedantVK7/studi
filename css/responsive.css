@@ -197,5 +197,9 @@ ul.like li img {
         background: url(../images/menu_icon.png);
         background-repeat: no-repeat;
     }
+    .manual-ans-header h1 {
+        font-size: 3rem;
+        color: #3e3e3e;
+    }
 }
 

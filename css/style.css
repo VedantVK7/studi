@@ -442,61 +442,262 @@ button {
 
 /*--------------------------------------------------------------------- End Syllabus  ---------------------------------------------------------------------*/
 
-
-/** blog_main section **/
-.blog_main {margin-top: 85px;}
-.blog_main .span {font-size: 17px; line-height: 20px; color: #2d2d2d;}
-.our_two_box {box-shadow: #ddd 0px 0px 10px 0px; margin-bottom: 90px;}
-.our_text_box {padding: 1px 30px 1px 1px;}
-.our_img figure {margin: 0;}
-.our_img figure img {width: 100%;}
-.awesome {padding-bottom:40px; font-size: 26px; line-height: 38px; color:#333334; } 
-.our_text_box p {padding-bottom: 50px; color: #3c3c3c; display: inline-block; } 
-.flot_left1 {float: left; padding: 0;} 
-ul.like {float: right;}
-ul.like li {display: inline-block;}
-ul.like li a {display: inline-block; color: #3c3c3c;}
-ul.like li img {padding: 0px 10px 0px 40px;}
-
-/** secend section **/
-
-.position_box {position: absolute; bottom: 0; padding: 0px 20px 20px 20px;}
-.withi_color {color: #fff;}
-.position_box p {color: #fff;} 
-ul.withi_color li a {color: #fff;}
-ul.withi_color {float: left; padding-left: 40px;}
-
-/** end secend section **/
-
-
-
-/** end three section **/
-.padding_flot {
-     padding-bottom:0; 
-     display: inline-block; 
-     float: left;
-     font-size: 20px;
-     padding-right: 14px;
+/*---------------------------------------------------------------------
+  Start Syllabus Manual Answers  ---------------------------------------------------------------------*/
+#manual-ans{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     padding: 5rem 0;
 }
-.three_box {padding: 20px 20px; box-shadow: #ddd 0px 0px 10px 0px;}
-.three_box p {padding-bottom: 0; padding-top: 15px;}
-ul.padding_left2 li img {padding: 0px 10px 0px 30px;}
+.manual-ans-header{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+     margin: 4rem 0;
+     padding: 0 2.5rem;
+
+}
+.manual-ans-header h1{
+     font-size: 5rem;
+     color: #3e3e3e;
+}
+.manual-ans{
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+}
+.manual-box{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 4rem 0;
+}
+.manual-img {
+     width: 250px;
+}
+.manual-img img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover
+}
+.manual-desc{
+     height: 354px;
+     width: 400px;
+     padding: 1.5rem 2rem;
+     display: flex;
+     align-items: flex-start;
+     justify-content: flex-start;
+     flex-direction: column;
+     text-align:left;
+     border-radius: 0 1rem 1rem 0;
+     border-top: 1px solid #bbbbbb;
+     border-right: 1px solid #bbbbbb;
+     border-bottom: 1px solid #bbbbbb;
+}
+
+.btn-slide, .btn-slide2 {
+     position: relative;
+     display: inline-block;
+     height: 50px;
+     width: 200px;
+     line-height: 50px;
+     padding: 0;
+     border-radius: 50px;
+     background: #fdfdfd;
+     border: 2px solid #CC56A0;
+     margin: 10px;
+     transition: .5s;
+ }
+ 
+ .btn-slide2 {
+     border: 2px solid #CC56A0;
+ }
+ 
+ .btn-slide:hover {
+     background-color: #CC56A0;
+ }
+ 
+ .btn-slide2:hover {
+     background-color: #CC56A0;
+ }
+ 
+ .btn-slide:hover span.circle, .btn-slide2:hover span.circle2 {
+     left: 100%;
+     margin-left: -45px;
+     background-color: #fdfdfd;
+     color: #CC56A0;
+ }
+ 
+ .btn-slide2:hover span.circle2 {
+     color: #CC56A0;
+ }
+ 
+ .btn-slide:hover span.title, .btn-slide2:hover span.title2 {
+     left: 40px;
+     opacity: 0;
+ }
+ 
+ .btn-slide:hover span.title-hover, .btn-slide2:hover span.title-hover2 {
+     opacity: 1;
+     left: 40px;
+ }
+ 
+ .btn-slide span.circle, .btn-slide2 span.circle2 {
+     display: block;
+     background-color: #0099cc;
+     color: #fff;
+     position: absolute;
+     float: left;
+     margin: 5px;
+     line-height: 42px;
+     height: 40px;
+     width: 40px;
+     top: -2px;
+     left: 0;
+     transition: .5s;
+     border-radius: 50%;
+ }
+ .manual-box:nth-child(2) .manual-desc .btn-slide2{
+     border: 2px solid #CC56A0;
+ }
+ .manual-box:nth-child(2) .manual-desc .btn-slide2:hover{
+     background-color: #CC56A0;
+ }
+ 
+ .manual-box:nth-child(2) .manual-desc .btn-slide2 span i{
+     color: #fff;
+ }
+ .manual-box:nth-child(2) .manual-desc .btn-slide2 span.circle2{
+     background-color: #CC56A0;
+ }
+ .manual-box:nth-child(2) .manual-desc .btn-slide2:hover span.circle2{
+     background-color: #fff;
+ }
+ .manual-box:nth-child(2) .manual-desc .btn-slide2:hover span i{
+     color: #CC56A0;
+ }
+ .manual-box:nth-child(2) .manual-desc .btn-slide2 span{
+     color: #CC56A0;
+ }
+ .manual-box:nth-child(2) .manual-desc .btn-slide2:hover span{
+     color: #fff;
+ }
+ 
+ .btn-slide2 span.circle2 {
+     background-color: #CC56A0;
+     text-align: center;
+ }
+ 
+ .btn-slide span.title,
+   .btn-slide span.title-hover, .btn-slide2 span.title2,
+   .btn-slide2 span.title-hover2 {
+     position: absolute;
+     left: 90px;
+     text-align: center;
+     margin: 0 auto;
+     font-size: 16px;
+     font-weight: bold;
+     color: #CC56A0;
+     transition: .5s;
+     top: -3px;
+ }
+ 
+ .btn-slide2 span.title2,
+   .btn-slide2 span.title-hover2 {
+     color: #CC56A0;
+     left: 80px;
+   }
+ 
+ .btn-slide span.title-hover, .btn-slide2 span.title-hover2 {
+     left: 80px;
+     opacity: 0;
+ }
+ 
+ .btn-slide span.title-hover, .btn-slide2 span.title-hover2 {
+     color: #fff;
+ }
+ 
+ 
 
 
 
-/** end three section **/
+ .manual-box:nth-child(4) .manual-desc .btn-slide2{
+     border: 2px solid #EF1551;
+ }
+ .manual-box:nth-child(4) .manual-desc .btn-slide2:hover{
+     background-color: #EF1551;
+ }
+ 
+ .manual-box:nth-child(4) .manual-desc .btn-slide2 span i{
+     color: #fff;
+ }
+ .manual-box:nth-child(4) .manual-desc .btn-slide2 span.circle2{
+     background-color: #EF1551;
+ }
+ .manual-box:nth-child(4) .manual-desc .btn-slide2:hover span.circle2{
+     background-color: #fff;
+ }
+ .manual-box:nth-child(4) .manual-desc .btn-slide2:hover span i{
+     color: #EF1551;
+ }
+ .manual-box:nth-child(4) .manual-desc .btn-slide2 span{
+     color: #EF1551;
+ }
+ .manual-box:nth-child(4) .manual-desc .btn-slide2:hover span{
+     color: #fff;
+ }
 
 
-/** end for section **/
-
-.magna_top90 {margin-top: 90px;}
-
-/** end for section **/
 
 
-/** end blog_main section **/
 
 
+ .manual-box:nth-child(1) .manual-desc .btn-slide2{
+     border: 2px solid #F15A23;
+ }
+ .manual-box:nth-child(1) .manual-desc .btn-slide2:hover{
+     background-color: #F15A23;
+ }
+ 
+ .manual-box:nth-child(1) .manual-desc .btn-slide2 span i{
+     color: #fff;
+ }
+ .manual-box:nth-child(1) .manual-desc .btn-slide2 span.circle2{
+     background-color: #F15A23;
+ }
+ .manual-box:nth-child(1) .manual-desc .btn-slide2:hover span.circle2{
+     background-color: #fff;
+ }
+ .manual-box:nth-child(1) .manual-desc .btn-slide2:hover span i{
+     color: #F15A23;
+ }
+ .manual-box:nth-child(1) .manual-desc .btn-slide2 span{
+     color: #F15A23;
+ }
+ .manual-box:nth-child(1) .manual-desc .btn-slide2:hover span{
+     color: #fff;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------- 
+End Syllabus Manual Answers  ---------------------------------------------------------------------*/
 
 
 
@@ -708,3 +909,34 @@ ul.social_icon li a:hover {
 
 /** end footer **/
 
+@media screen and (max-width:700px) {
+     .manual-box{
+          flex-direction: column;
+     }
+     .manual-desc {
+          height: auto;
+          width: 400px;
+          border-radius:0 0 1rem 1rem;
+          border-top: none;
+          border-left: 1px solid #bbbbbb;
+          border-right: 1px solid #bbbbbb;
+          border-bottom: 1px solid #bbbbbb;
+      }
+      .manual-img {
+          width: 402px;
+          height: 289px;
+      }
+}
+@media screen and (max-width:430px) {
+
+     .manual-desc {
+          width: calc(90% - 1px);
+      }
+      .manual-img {
+          width: 90%;
+          height: 289px;
+      }
+      .manual-desc h1{
+          font-size: 20px;
+      }
+}
