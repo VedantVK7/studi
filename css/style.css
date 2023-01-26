@@ -924,10 +924,13 @@ nav.active-bar{
 nav.active-bar .logo h1{
      color: #fff;
 }
+
 nav .logo h1{
      font-size: 4rem;
      color: #02fee5;
      transition: all .5s ease;
+     padding: 0 !important;
+     font-weight: 900;
 }
 nav ul{
      display: flex;
@@ -941,6 +944,22 @@ nav ul li a{
      padding: 1rem 1.5rem;
      color: #fff;
      font-size: 2rem;
+     position: relative;
+}
+nav ul li a::after{
+     width: 0%;
+     left: 50%;
+     content: '';
+     position: absolute;
+     background-color: #fff;
+     height: 3px;
+     border: 30px;
+     bottom: 0;
+     transition: all .3s ease-in-out;
+}
+nav ul li a:hover::after{
+     width: 100%;
+     left: 0;
 }
 nav ul li a:hover{
      color: #3e3e3e;
@@ -953,14 +972,17 @@ nav ul li a:hover{
      position: relative;
      height: 40px;
      width: 60px;
-     background: rgba(255, 255, 255, 0.196);
-     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+     background: rgba(255, 255, 255, 0.047);
      backdrop-filter: blur( 4.5px );
      -webkit-backdrop-filter: blur( 4.5px );
      border-radius: 10px;
-     border: 1px solid rgba(255, 255, 255, 0.36);
+     border: 1px solid rgba(255, 255, 255, 0.237);
      cursor: pointer;
      display: none;
+     transition: all .3s ease;
+}
+.hamburger.active{
+     box-shadow: 0 8px 32px 0 rgba(0, 251, 255, 0.647);
 }
 .hambar{
      width: 31px;

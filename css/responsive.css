@@ -201,5 +201,8 @@ ul.like li img {
         font-size: 3rem;
         color: #3e3e3e;
     }
+    nav .logo h1 {
+        font-size: 3.5rem;
+    }
 }
 
