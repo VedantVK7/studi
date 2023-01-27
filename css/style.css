@@ -1010,6 +1010,34 @@ nav ul li a:hover{
      transform: rotate(-45deg);
 }
 
+/* Notes */
+#notes{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     padding: 6rem 0;
+}
+.notes-header{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+     margin: 3rem 0;
+}
+.notes-header h1{
+     font-size: 5rem;
+}
+.alert-danger{
+     text-align: center;
+}
+
+
+
+
+
+
 
 @media screen and (max-width:800px) {
 
