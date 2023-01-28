@@ -1116,7 +1116,6 @@ nav ul li a:hover {
      background-image: url(/images/green-notes-bg.jpg);
      filter: blur(1px) saturate(1);
      background-position: center;
-     background-size: cover;
 }
 
 .notes-box h1 {
