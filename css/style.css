@@ -41,6 +41,7 @@ body {
      font-family: 'Lato', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
+     user-select: none
 }
 
 a {
@@ -327,7 +328,7 @@ button {
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 
 .head_top {
-     background: url(../images/banner2.jpg);
+     background: url(../images/banner-v2.jpg);
      background-size: cover;
      background-repeat: no-repeat;
      height: 100vh;
@@ -343,9 +344,9 @@ button {
 .logo a {
      font-size: 40px;
      font-weight: bold;
-     font-family: 'Righteous', cursive;
      letter-spacing: 5px;
-     color: #02fee5;
+     font-family: 'Macondo Swash Caps', cursive;
+     color: #E384FF;
      line-height: 40px;
 }
 
@@ -358,7 +359,7 @@ button {
 }
 
 .text-bg h1 {
-     color: #02fee5;
+     color: #fbfbfb;
      font-size: 75px;
      line-height: 110px;
      font-weight: bold;
@@ -368,7 +369,7 @@ button {
      color: #fff;
      font-size: 17px;
      line-height: 28px;
-     padding: 40px 0;
+     padding: 4rem 0;
 }
 
 .text-bg a {
@@ -395,7 +396,8 @@ button {
 }
 
 .white1 {
-     color: #fff;
+     color: #E3DCF8;
+     font-size: 4rem;
 }
 
 .titlepage {
@@ -405,7 +407,7 @@ button {
 
 .titlepage h2 {
      font-size: 40px;
-     color: #3e3e3e;
+     color: #6740d9;
      line-height: 57px;
      font-weight: bold;
      padding: 0;
@@ -431,7 +433,7 @@ button {
      text-align: center;
      font-size: 5rem;
      margin: 4rem 0;
-     color: #3e3e3e;
+     color: #6740d9;
 }
 
 .download-btn {
@@ -470,7 +472,7 @@ button {
 
 .manual-ans-header h1 {
      font-size: 5rem;
-     color: #3e3e3e;
+     color: #6740d9;
 }
 
 .manual-ans {
@@ -507,9 +509,9 @@ button {
      flex-direction: column;
      text-align: left;
      border-radius: 0 1rem 1rem 0;
-     border-top: 1px solid #bbbbbb;
-     border-right: 1px solid #bbbbbb;
-     border-bottom: 1px solid #bbbbbb;
+     border-top: 1px solid #865DFF;
+     border-right: 1px solid #865DFF;
+     border-bottom: 1px solid #865DFF;
 }
 
 .btn-slide, .btn-slide2 {
@@ -751,17 +753,17 @@ End Syllabus Manual Answers  ---------------------------------------------------
 
 .main_form {
      padding: 50px 50px;
-     border: #046c58 solid 1px;
+     border: #865DFF solid 1px;
      margin: 0px 80px;
 }
 
 .contact .main_form .form_contril {
-     border: #046c58 solid 1px;
+     border: #865DFF solid 1px;
      margin-bottom: 20px;
      width: 100%;
      height: 45px;
      background: #fff;
-     color: #046c58;
+     color: #fd69fa;
      font-size: 17px;
      border-top: 0;
      border-right: 0;
@@ -769,12 +771,12 @@ End Syllabus Manual Answers  ---------------------------------------------------
 }
 
 .contact .main_form .textarea {
-     border: #046c58 solid 1px;
+     border: #865DFF solid 1px;
      margin-bottom: 20px;
      width: 100%;
      height: 60px;
      background: #fff;
-     color: #046c58;
+     color: #fd69fa;
      font-size: 17px;
      border-top: 0;
      border-right: 0;
@@ -784,7 +786,7 @@ End Syllabus Manual Answers  ---------------------------------------------------
 .contact .main_form .send_btn {
      font-size: 17px;
      transition: ease-in all 0.5s;
-     background-color: #000;
+     background-color: #FFA3FD;
      text-transform: uppercase;
      color: #fff;
      padding: 13px 0px;
@@ -796,14 +798,14 @@ End Syllabus Manual Answers  ---------------------------------------------------
 }
 
 .contact .main_form .send_btn:hover {
-     background-color: #046c58;
+     background-color: #E384FF;
      transition: ease-in all 0.5s;
      color: #fff;
      border-radius: 26px;
 }
 
 #contact *::placeholder {
-     color: #046c58;
+     color: #865DFF;
      opacity: 1;
 }
 
@@ -848,7 +850,7 @@ End Syllabus Manual Answers  ---------------------------------------------------
 /** footer **/
 
 .multi {
-     color: #046c58;
+     color: #6740d9;
 }
 
 .footer {
@@ -908,14 +910,14 @@ ul.social_icon li a {
 }
 
 ul.social_icon li a:hover {
-     background: #046c58;
+     background: #865DFF;
      color: #fff;
 
 }
 
 .copyright {
-     padding: 20px 0px;
-     background: #046c58;
+     padding:  4rem 0px;
+     background: #865DFF;
      margin-top: 50px;
      position: relative;
 }
@@ -950,7 +952,7 @@ nav {
 
 nav.active-bar {
      position: fixed;
-     background-color: #38c8a8;
+     background-color: #E384FF;
      z-index: 100;
 }
 
@@ -960,7 +962,7 @@ nav.active-bar .logo h1 {
 
 nav .logo h1 {
      font-size: 4rem;
-     color: #02fee5;
+     color: #02fee50c;
      transition: all .5s ease;
      padding: 0 !important;
      font-weight: 900;
@@ -1001,7 +1003,7 @@ nav ul li a:hover::after {
 }
 
 nav ul li a:hover {
-     color: #3e3e3e;
+     color: #fff;
 }
 
 .hamburger {
@@ -1012,27 +1014,17 @@ nav ul li a:hover {
      position: relative;
      height: 40px;
      width: 60px;
-     background: rgba(255, 255, 255, 0.047);
-     backdrop-filter: blur(4.5px);
-     -webkit-backdrop-filter: blur(4.5px);
-     border-radius: 10px;
-     border: 1px solid rgba(255, 255, 255, 0.237);
      cursor: pointer;
      display: none;
      transition: all .3s ease;
 }
 
-.hamburger.active {
-     box-shadow: 0 8px 32px 0 rgba(0, 251, 255, 0.647);
-}
-
 .hambar {
-     width: 31px;
+     width: 35px;
      height: 4px;
-     border-radius: 30px;
      background-color: #fff;
      position: absolute;
-     transition: all .3s ease;
+     transition: all .5s ease;
 }
 
 .hambar:nth-child(1) {
@@ -1081,7 +1073,7 @@ nav ul li a:hover {
 
 .notes-header h1 {
      font-size: 5rem;
-     color: #3e3e3e;
+     color: #6740d9;
 }
 
 .notes{
@@ -1101,18 +1093,16 @@ nav ul li a:hover {
      position: relative;
      overflow: hidden;
      margin: 15px 15px;
+     transform-style: preserve-3d;
 }
 .notes-box-bg{
-     background: rgba(4, 108, 87, 0.536);
+     background:#865DFF;
      position: absolute;
      width: 100%;
      height: 100%;
      border-radius: 16px;
      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-     backdrop-filter: blur(8.2px);
-     -webkit-backdrop-filter: blur(8.2px);
-     border: 1px solid rgba(4, 108, 87, 0.954);
-     background-image: url(../images/green-notes-bg.jpg);
+     border: 1px solid #6c3aff;
      filter: blur(1px) saturate(1);
      background-position: center;
 }
@@ -1186,7 +1176,7 @@ nav ul li a:hover {
           justify-content: center;
           position: fixed;
           top: 80px;
-          background-color: #02fee5;
+          background-color: #C15AFF;
           transform: rotate(90deg);
           width: 100%;
           z-index: 100;
@@ -1203,7 +1193,7 @@ nav ul li a:hover {
      }
 
      nav ul li a {
-          color: #3e3e3e;
+          color: #fff;
      }
 
      nav ul li {
@@ -1233,6 +1223,9 @@ nav ul li a:hover {
      }
      .notes-box {
           width: 80%;
+      }
+      .text-bg p {
+          padding: .5rem 0;
       }
 }
 
