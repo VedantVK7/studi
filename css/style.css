@@ -328,12 +328,12 @@ button {
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 
 .head_top {
-     background: url(../images/banner-v2.jpg);
+     background: url(../images/pc-nots-bg.jpg);
      background-size: cover;
      background-repeat: no-repeat;
      height: 100vh;
      background-position: center;
-    
+     background-attachment: fixed;
 }
 
 .header {
