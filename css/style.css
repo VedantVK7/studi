@@ -455,7 +455,7 @@ button {
 .assignments-box {
      border: 1px solid #212121;
      width: 350px;
-     height: 400px;
+     height: 420px;
      border-radius: 1rem;
      display: flex;
      align-items: center;
@@ -477,8 +477,8 @@ button {
 }
 .assingments-img {
      width: 100%;
-     height: 200px;
-     background-image: url(images/assignment.jpg);
+     height: 200px !important;
+     background-image: url(../images/assignments.png);
      background-position: center;
      background-size: cover;
      border: 1px solid #865dff3f;
