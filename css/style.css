@@ -436,11 +436,13 @@ button {
      flex-direction: column;
      text-align: center;
      padding: 0 2rem;
+     margin-bottom: 3rem;
 }
 
 .assignment-header h1 {
      font-size: 5rem;
      color: #6740d9;
+     margin: 2rem 0;
 }
 
 .assignment-header p .assignment-header p strong {
@@ -455,7 +457,7 @@ button {
 .assignments-box {
      border: 1px solid #212121;
      width: 350px;
-     height: 420px;
+     height: auto;
      border-radius: 1rem;
      display: flex;
      align-items: center;
@@ -473,7 +475,7 @@ button {
      transition: all .5s ease;
 }
 .assignments-box:hover{
-     background: #6e42f257;
+     background: #6e42f225;
 }
 .assingments-img {
      width: 100%;
@@ -483,7 +485,6 @@ button {
      background-size: cover;
      border: 1px solid #865dff3f;
      border-radius: 1rem;
-     border: 3px solid #E384FF;
 }
 
 .assignments-box h3 {
@@ -491,7 +492,17 @@ button {
      font-family: 'Righteous', sans-serif;
      font-size: 2.5rem;
 }
-
+.assignments-box h3 sup{
+     color: #4e4e4e;
+}
+.assignments-desc{
+     width: 100%;
+     height: 160px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-direction: column;
+}
 .assignments-box a{
      background-color: #865DFF;
      border-radius: 3rem;
@@ -507,7 +518,31 @@ button {
      background-color: #FFF;
      letter-spacing: 2px;
 }
-
+.assignments-more{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 4rem 0;
+}
+.assignments-more a{
+     font-size: 2rem;
+     margin-right: 1rem;
+     border: 2px solid #d343ff;
+     padding: 1rem 1.5rem;
+     background-color: #C15AFF;
+     color: #fff;
+}
+.assignments-more i{
+     transition: all .3s ease;
+     margin-left: 1rem;
+     color: #fff;
+}
+.assignments-more a:hover i{
+     margin-left: 2rem;
+}
+.assignments-more a:hover{
+     border-radius: 3rem;
+}
 /*-------- Assginments End  ---------------------------------------------------------------------*/
 /*--------------------------------------------------------------------- Syllabus  ---------------------------------------------------------------------*/
 .bf-table caption {
@@ -529,11 +564,11 @@ button {
      font-weight: 700;
      letter-spacing: 1px;
      text-decoration: underline !important;
-     color: #0389ff;
+     color: #6c3aff;
 }
 
 .download-btn:hover {
-     color: #6740d9;
+     color: #C15AFF;
 }
 
 /*--------------------------------------------------------------------- End Syllabus  ---------------------------------------------------------------------*/
@@ -942,9 +977,6 @@ End Syllabus Manual Answers  ---------------------------------------------------
      color: #6740d9;
 }
 
-.footer {
-     background: #fff;
-}
 
 .cont {
      text-align: center;
@@ -1259,6 +1291,96 @@ nav ul li a:hover {
      color: #3e3e3e;
 
 }
+/* Footer */
+#footer-main{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 4rem 3rem;
+     background-color: #865DFF;
+     margin-top: 5rem;
+}
+.footer-main-desc{
+     display: flex;
+     align-items: flex-start;
+     justify-content: flex-start;
+     flex-direction: column;
+     text-align: left;
+     padding: 0 2rem;
+     width: 500px;
+}
+.footer-main-desc h1{
+     font-size: 5rem;
+     color: #fff;
+}
+.footer-main-desc p{
+     color: #fff;
+}
+.footer-main-desc p a{
+     color: #fff;
+     text-decoration: underline;
+     border-bottom: 1px solid #fff;
+} 
+.footer-btn{
+     padding: 1rem 2rem;
+     border: 2px solid #fff;
+     text-align: center;
+     color: #fff;
+     font-weight: 700;
+     font-size: 1.7rem;
+     margin: 2rem 0;
+}
+.footer-btn:hover{
+     color: #d1d1d1;
+}
+.footer-rights{
+     padding: 0 2rem;
+     text-align: center;
+     justify-content: center;
+     flex-direction: column;
+     display: flex;
+     margin: 0 2rem;
+}
+.footer-rights p{
+     color: #fff;
+}
+.footer-rights p a{
+     color: #fdd430;
+}
+.footer-touch{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     user-select: text;
+     text-align: center;
+}
+.footer-touch p{
+     color: #fff;
+}
+.footer-touch h2{
+     color: #fff;
+}
+.footer-ico ul{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+}
+.footer-ico ul li {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #fff;
+     font-size: 1.6rem;
+     margin: 1rem 0;
+}
+.footer-ico ul li i {
+     font-size: 2rem;
+     color: #FFF;
+     margin-right: 1rem;
+}
 
 
 
@@ -1266,6 +1388,9 @@ nav ul li a:hover {
      .assignments-box {
           width: 290px;
       }
+      .assignments-desc{
+          height: 200px;
+     }
 }
 @media screen and (max-width:800px) {
 
@@ -1302,6 +1427,17 @@ nav ul li a:hover {
      nav ul li {
           margin: 1.3rem 0;
      }
+     #footer-main{
+          flex-wrap: wrap;
+          flex-direction: column;
+     }
+     .footer-main-desc {
+          width: 90%;
+          padding: 0;
+      }
+      .footer-rights {
+          margin: 5rem 0;
+      }
 }
 
 /** end footer **/
@@ -1332,8 +1468,20 @@ nav ul li a:hover {
      .text-bg p {
           padding: .5rem 0;
      }
+     .assignments-h1{
+          font-size: 5rem !important;
+          line-height: 3rem !important;
+     }
+     .footer-main-desc h1 {
+          font-size: 4rem;
+      }
 }
 
+@media screen and (max-width:650px) {
+     .assignments-box {
+          width: 400px;
+      }
+}
 @media screen and (max-width:430px) {
 
      .manual-desc {
@@ -1355,4 +1503,8 @@ nav ul li a:hover {
      .assignments-box {
           width: 90%;
       }
+      .assignments-h1{
+          font-size: 3rem !important;
+          line-height: 0rem !important;
+     }
 }
