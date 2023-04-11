@@ -977,9 +977,6 @@ End Syllabus Manual Answers  ---------------------------------------------------
      color: #6740d9;
 }
 
-.footer {
-     background: #fff;
-}
 
 .cont {
      text-align: center;
@@ -1308,6 +1305,7 @@ nav ul li a:hover {
      align-items: flex-start;
      justify-content: flex-start;
      flex-direction: column;
+     text-align: left;
      padding: 0 2rem;
      width: 500px;
 }
@@ -1335,6 +1333,54 @@ nav ul li a:hover {
 .footer-btn:hover{
      color: #d1d1d1;
 }
+.footer-rights{
+     padding: 0 2rem;
+     text-align: center;
+     justify-content: center;
+     flex-direction: column;
+     display: flex;
+     margin: 0 2rem;
+}
+.footer-rights p{
+     color: #fff;
+}
+.footer-rights p a{
+     color: #fdd430;
+}
+.footer-touch{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     user-select: text;
+     text-align: center;
+}
+.footer-touch p{
+     color: #fff;
+}
+.footer-touch h2{
+     color: #fff;
+}
+.footer-ico ul{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+}
+.footer-ico ul li {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #fff;
+     font-size: 1.6rem;
+     margin: 1rem 0;
+}
+.footer-ico ul li i {
+     font-size: 2rem;
+     color: #FFF;
+     margin-right: 1rem;
+}
 
 
 
@@ -1342,6 +1388,9 @@ nav ul li a:hover {
      .assignments-box {
           width: 290px;
       }
+      .assignments-desc{
+          height: 200px;
+     }
 }
 @media screen and (max-width:800px) {
 
@@ -1378,6 +1427,17 @@ nav ul li a:hover {
      nav ul li {
           margin: 1.3rem 0;
      }
+     #footer-main{
+          flex-wrap: wrap;
+          flex-direction: column;
+     }
+     .footer-main-desc {
+          width: 90%;
+          padding: 0;
+      }
+      .footer-rights {
+          margin: 5rem 0;
+      }
 }
 
 /** end footer **/
@@ -1412,8 +1472,16 @@ nav ul li a:hover {
           font-size: 5rem !important;
           line-height: 3rem !important;
      }
+     .footer-main-desc h1 {
+          font-size: 4rem;
+      }
 }
 
+@media screen and (max-width:650px) {
+     .assignments-box {
+          width: 400px;
+      }
+}
 @media screen and (max-width:430px) {
 
      .manual-desc {
