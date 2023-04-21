@@ -486,6 +486,9 @@ button {
      border: 1px solid #865dff3f;
      border-radius: 1rem;
 }
+.question-bank-img{
+     background-image: url(../images/Qb.png);
+}
 
 .assignments-box h3 {
      margin-top: 4rem;
