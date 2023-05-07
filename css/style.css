@@ -473,6 +473,7 @@ button {
      border: 1px solid rgba(93, 93, 93, 0.3);
      margin: 2rem 2rem;
      transition: all .5s ease;
+     cursor: pointer;
 }
 .assignments-box:hover{
      background: #6e42f225;
@@ -774,35 +775,35 @@ button {
 
 
 
-.manual-box:nth-child(4) .manual-desc .btn-slide2 {
+.manual-box:nth-child(2) .manual-desc .btn-slide2 {
      border: 2px solid #EF1551;
 }
 
-.manual-box:nth-child(4) .manual-desc .btn-slide2:hover {
+.manual-box:nth-child(2) .manual-desc .btn-slide2:hover {
      background-color: #EF1551;
 }
 
-.manual-box:nth-child(4) .manual-desc .btn-slide2 span i {
+.manual-box:nth-child(2) .manual-desc .btn-slide2 span i {
      color: #fff;
 }
 
-.manual-box:nth-child(4) .manual-desc .btn-slide2 span.circle2 {
+.manual-box:nth-child(2) .manual-desc .btn-slide2 span.circle2 {
      background-color: #EF1551;
 }
 
-.manual-box:nth-child(4) .manual-desc .btn-slide2:hover span.circle2 {
+.manual-box:nth-child(2) .manual-desc .btn-slide2:hover span.circle2 {
      background-color: #fff;
 }
 
-.manual-box:nth-child(4) .manual-desc .btn-slide2:hover span i {
+.manual-box:nth-child(2) .manual-desc .btn-slide2:hover span i {
      color: #EF1551;
 }
 
-.manual-box:nth-child(4) .manual-desc .btn-slide2 span {
+.manual-box:nth-child(2) .manual-desc .btn-slide2 span {
      color: #EF1551;
 }
 
-.manual-box:nth-child(4) .manual-desc .btn-slide2:hover span {
+.manual-box:nth-child(2) .manual-desc .btn-slide2:hover span {
      color: #fff;
 }
 
@@ -811,35 +812,35 @@ button {
 
 
 
-.manual-box:nth-child(1) .manual-desc .btn-slide2 {
+.manual-box:nth-child(5) .manual-desc .btn-slide2 {
      border: 2px solid #F15A23;
 }
 
-.manual-box:nth-child(1) .manual-desc .btn-slide2:hover {
+.manual-box:nth-child(5) .manual-desc .btn-slide2:hover {
      background-color: #F15A23;
 }
 
-.manual-box:nth-child(1) .manual-desc .btn-slide2 span i {
+.manual-box:nth-child(5) .manual-desc .btn-slide2 span i {
      color: #fff;
 }
 
-.manual-box:nth-child(1) .manual-desc .btn-slide2 span.circle2 {
+.manual-box:nth-child(5) .manual-desc .btn-slide2 span.circle2 {
      background-color: #F15A23;
 }
 
-.manual-box:nth-child(1) .manual-desc .btn-slide2:hover span.circle2 {
+.manual-box:nth-child(5) .manual-desc .btn-slide2:hover span.circle2 {
      background-color: #fff;
 }
 
-.manual-box:nth-child(1) .manual-desc .btn-slide2:hover span i {
+.manual-box:nth-child(5) .manual-desc .btn-slide2:hover span i {
      color: #F15A23;
 }
 
-.manual-box:nth-child(1) .manual-desc .btn-slide2 span {
+.manual-box:nth-child(5) .manual-desc .btn-slide2 span {
      color: #F15A23;
 }
 
-.manual-box:nth-child(1) .manual-desc .btn-slide2:hover span {
+.manual-box:nth-child(5) .manual-desc .btn-slide2:hover span {
      color: #fff;
 }
 
